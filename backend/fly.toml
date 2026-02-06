@@ -1,13 +1,11 @@
 # fly.toml
-app = "idp-backend-anushka"
+app = "idp-backend-anushka157"
 primary_region = "sin"
 kill_signal = "SIGINT"
 kill_timeout = "5s"
 
 [experimental]
   auto_rollback = true
-
-[build]
 
 [env]
   PORT = "8080"
