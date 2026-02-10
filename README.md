@@ -584,6 +584,3 @@ For issues or questions:
 - Contact DevOps team
 - Slack: #idp-support
 
----
-
-**Built with ❤️ by Anushka Chaudhary**

@@ -42,15 +42,6 @@ export default function AuditLogsPage() {
     }
   }
 
-  const getActionColor = (action: string) => {
-    if (action.includes('CREATED')) return 'text-green-600 bg-green-50'
-    if (action.includes('UPDATED')) return 'text-blue-600 bg-blue-50'
-    if (action.includes('DELETED')) return 'text-red-600 bg-red-50'
-    if (action.includes('ENABLED')) return 'text-emerald-600 bg-emerald-50'
-    if (action.includes('DISABLED')) return 'text-orange-600 bg-orange-50'
-    return 'text-gray-600 bg-gray-50'
-  }
-
   if (isLoading) {
     return <div className="text-center py-12">Loading...</div>
   }
